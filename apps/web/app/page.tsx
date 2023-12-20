@@ -8,7 +8,7 @@ const page = (): JSX.Element => {
   const [userInput, setUserInput] = useState('');
 
   return (
-    <div>
+    <div className="bg-red-500 h-full">
       <input
         type="text"
         onChange={(e) => setUserInput(e.currentTarget.value)}
